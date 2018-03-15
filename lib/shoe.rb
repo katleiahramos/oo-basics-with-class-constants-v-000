@@ -6,12 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.contains?(brand)
       BRANDS << brand
-    else
-      nil
-    end
-    
   end
 
 
